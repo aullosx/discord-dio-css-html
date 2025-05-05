@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'opens sans';
+}
+
+
+header{
+
+    background-image: url(assets/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    
+   
+}
+    
+    
+
+h1{
+    font-family: 'Luckiest Guy';
+    text-transform: uppercase;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+.content-header p{
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+button{
+    border-radius: 28px;
+    padding: 7px 10px 7px 10px ;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+
+
+.btn-left{
+    background-color: #ffff;
+    margin-right: 10px;
+    
+}
+
+.btn-right{
+    background-color:rgba(0,0,0,.6);
+    color: #ffff;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.section1 p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 240px;
+}
+
+span{
+
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: #F6F6F6;
+    
+}
+
+
+.section2 p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 240px;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section3 p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 240px;
+
+}
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    
+}
+
+h2{
+    font-family: 'Luckiest Guy';
+    font-size: 2.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.section4 p{
+    width: 802px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+        
+
+}
+
+@media screen and (max-width: 508px) {
+
+
+    header{
+        width:max-content;
+    }
+
+
+    .section1, .section2, .section3, .section4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    ;
+    }
+
+    
+}
